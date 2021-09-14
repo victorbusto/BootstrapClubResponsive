@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>SoftwareOne Run Club Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../BootstrapClubResponsive/static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a href="#" class="navbar-brand">
+        <img src="../BootstrapClubResponsive/static/images/softwareone-logo.png" height="36" alt="SoftwareOne">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resultados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Restaurantes</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+
+    <div class="container">
+      <h1 class="text-center">SoftwareOne Run Club (Bootstrap version)</h1>
+    </div>
+
+    <div class="summary">
+      <h2>Conócenos. Únete. Apoya.</h2>
+      <p>Ven a la carrera solidaria de SoftwareOne. ¡ Tendrás comida gratis !</p>
+      <!-- <span>Está patrocinada por </span><span id="logo"><a href="https://www.microsoft.com/es-es" target="new"><img src="../BootstrapClubResponsive/static/images/Microsoft-Logo.png" alt="Microsoft"></a></span> -->
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/tunnel-runners.jpg" class="d-block w-100" alt="foto 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/meetup-wine.jpg" class="d-block w-100" alt="foto 2"/>
+        </div>
+        <div class="carousel-item">
+          <img src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/runners-grayscale.jpg" class="d-block w-100" alt="foto 3"/>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+
+    <div class="container text-center">
+      <h1>"He comenzado a hacer deporte gracias a este tipo de eventos. Muy recomendable"</h1>
+      <p>-Víctor Busto. -Junior Developer desde 2021</p>
+    </div>
+
+    <!-- Gallery -->
+  <div class="row gallery">
+    <div class="col">
+      <img
+        src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/coffeshop.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="foto 1"
+      />
+      </div>
+      <div class="col">
+        <img
+        src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/marathon-runners.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="foto 2"
+      />
+      </div>
+      <div class="col">
+        <img
+        src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/hangouts.jpg"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="foto 3"
+      />
+      </div>
+    </div>
+  </div>
+<!-- Gallery -->
+
+    <div class="container">
+      <!-- Inner -->
+      <div class="carousel-inner py-4">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card">
+                  <img
+                    src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/coffeshop.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Restaurantes</h5>
+                    <p class="card-text">
+                      Accede a la reserva de los restaurantes colaboradores.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Reservar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/marathon-runners.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Carrera</h5>
+                    <p class="card-text">
+                      Inscríbete en la carrera de la semana correspondiente a tu categoría.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Inscribirme</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="card">
+                  <img
+                    src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/hangouts.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Conoce a la gente</h5>
+                    <p class="card-text">
+                      Entra en nuestro canal de Telegram para buscar a la gente que te interese.
+                    </p>
+                    <a href="#!" class="btn btn-primary">Entrar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- meetup -->
+    <div class="container">
+      <div class="meetup">
+        <h1>Ven y diviértete!</h1>
+        <img src="https://static-assets.codecademy.com/Paths/front-end-career-path/responsive-club-website/runners-church.jpg" />
+        <h1>Quedamos los viernes a las 18:00</h1>
+      </div>
+    </div>
+      
+
+    <div class="footer text-center">
+      Todos los derechos reservados. SoftwareOne.
+    </div>
+  </body>
+
+</html>
